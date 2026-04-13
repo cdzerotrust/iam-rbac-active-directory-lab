@@ -7,6 +7,43 @@ Built a working Identity & Access Management (IAM) lab to simulate enterprise ac
 
 This project demonstrates how identity, group membership, and NTFS permissions work together to enforce **role-based access control (RBAC)**.
 
+## Problem
+
+Organizations often grant users excessive or unmanaged access, leading to:
+- Privilege creep
+- Unauthorized data exposure
+- Lack of visibility into who can access sensitive resources
+
+---
+
+## Solution
+
+Implemented Role-Based Access Control (RBAC) using Active Directory:
+
+- Created security groups aligned to business roles (Finance, IT, HR, etc.)
+- Assigned users to groups instead of direct permissions
+- Structured Organizational Units (OUs) for device governance
+- Applied NTFS permissions to enforce access restrictions
+- Validated access behavior through real authentication testing
+
+---
+
+## Outcome
+
+- Unauthorized users were denied access to restricted resources
+- Authorized users successfully gained access after the correct group assignment
+- Device placement ensured consistent policy enforcement
+- Identity-based access control was validated end-to-end
+
+---
+
+## Security Impact
+
+- Enforces **least privilege access**
+- Reduces **attack surface and lateral movement risk**
+- Improves **auditability and compliance readiness**
+- Demonstrates **identity-driven access control model**
+
 ---
 
 ## 🧠 Objective
