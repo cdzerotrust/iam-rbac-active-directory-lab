@@ -153,29 +153,4 @@ Example:
 
 ![Identity Token Validation](screenshots/10-Identity-Token-Validation.png)
 
-Command used:
-```powershell
-whoami /groups
 
-✔ Confirms user’s security token includes assigned group (GG-IT-Users)
-✔ Validates identity → group → access flow
-
-🧠 Key Takeaway
-
-Access control is not just about provisioning users.
-
-It requires:
-
-Proper identity assignment
-Role-based group mapping
-Token validation
-Enforcement at the resource level
-
-Misconfigured permissions or DNS alone can break identity-based access control.
-
-🔐 Security Impact
-Enforced least privilege access
-Prevented unauthorized data access
-Reduced risk of privilege creep
-Demonstrated audit-ready IAM control validation
-##
