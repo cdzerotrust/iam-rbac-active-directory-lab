@@ -154,3 +154,6 @@ Example:
 ![Identity Token Validation](screenshots/10-Identity-Token-Validation.png)
 
 
+## 📎 Author
+**Chris Davis**  
+Cloud IAM | Governance, Risk & Compliance (GRC) | Zero Trust Security
