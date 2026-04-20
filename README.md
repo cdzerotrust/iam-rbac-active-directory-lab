@@ -1,4 +1,4 @@
-# iam-rbac-active-directory-lab
+# Iam-Rbac-Active-Directory-Lab
 IAM RBAC lab demonstrating identity-to-access enforcement using Active Directory, security groups, and NTFS permissions
 # 🔐 IAM RBAC Enforcement – Active Directory Lab
 
